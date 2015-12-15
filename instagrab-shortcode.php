@@ -6,6 +6,7 @@ Description: Brug shortcode [instagrab] for at vise Insta Grabagram's do_action 
 */
 
 function niels_instagrab_shortcode(){
+    
     // Tjek om vores action findes, ellers gør intet
     if(has_action('insta_grab_a_gram')){ 
         // Start output buffer
